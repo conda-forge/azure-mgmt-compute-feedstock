@@ -11,6 +11,18 @@ Summary: Microsoft Azure Client Libraries for Python
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-mgmt-compute-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-mgmt-compute-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-mgmt-compute-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-mgmt-compute-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-mgmt-compute-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-mgmt-compute-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-compute/badges/version.svg)](https://anaconda.org/conda-forge/azure-mgmt-compute)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-compute/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-mgmt-compute)
+
 Installing azure-mgmt-compute
 =============================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `azure-mgmt-compute` available on 
 ```
 conda search azure-mgmt-compute --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-mgmt-compute-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-mgmt-compute-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-mgmt-compute-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-mgmt-compute-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-mgmt-compute-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-mgmt-compute-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-compute/badges/version.svg)](https://anaconda.org/conda-forge/azure-mgmt-compute)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-compute/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-mgmt-compute)
 
 
 Updating azure-mgmt-compute-feedstock
