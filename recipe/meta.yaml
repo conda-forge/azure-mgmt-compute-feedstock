@@ -22,7 +22,8 @@ requirements:
     - setuptools
   run:
     - python
-    - azure-mgmt-common
+    - azure-common >=1.1
+    - msrestazure >=0.4.20 
 
 test:
   imports:
