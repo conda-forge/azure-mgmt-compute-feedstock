@@ -7,7 +7,7 @@ package:
 source:
   fn: azure-mgmt-compute-{{ version }}.zip
   url: https://pypi.io/packages/source/a/azure-mgmt-compute/azure-mgmt-compute-{{ version }}.zip
-  md5: 6a6ab8b429fa8bae8425a4b702c252fdcc28339b3c48d737a9bce566d76e151a
+  md5: ff64353ce2dd733bd634ca562112dbce
   
 build:
   script: python setup.py install --single-version-externally-managed --record=record.txt
