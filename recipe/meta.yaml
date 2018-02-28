@@ -1,23 +1,25 @@
+{% set name = "azure-mgmt-compute" %}
 {% set version = "3.1.0rc3" %}
+{% set sha256 = "6a6ab8b429fa8bae8425a4b702c252fdcc28339b3c48d737a9bce566d76e151a" %}
 
 package:
-  name: azure-mgmt-compute
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: azure-mgmt-compute-{{ version }}.zip
-  url: https://pypi.io/packages/source/a/azure-mgmt-compute/azure-mgmt-compute-{{ version }}.zip
-  md5: ff64353ce2dd733bd634ca562112dbce
-  
+  fn: {{ name }}-{{ version }}.zip
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
+  sha256: {{ sha256 }}
+
 build:
-  script: python setup.py install --single-version-externally-managed --record=record.txt
   number: 0
+  noarch: python
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
     - setuptools
-    - azure-mgmt-common
   run:
     - python
     - azure-mgmt-common
