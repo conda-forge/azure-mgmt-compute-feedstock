@@ -14,9 +14,7 @@ Summary: Microsoft Azure Client Libraries for Python
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-mgmt-compute-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-mgmt-compute-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-mgmt-compute-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-mgmt-compute-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-mgmt-compute-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-mgmt-compute-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/azure-mgmt-compute-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-mgmt-compute-feedstock)
 
 Current release info
 ====================
