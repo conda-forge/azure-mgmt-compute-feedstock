@@ -14,12 +14,15 @@ Summary: Microsoft Azure Client Libraries for Python
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/azure-mgmt-compute-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-mgmt-compute-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/azure-mgmt-compute-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/azure-mgmt-compute-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-compute/badges/version.svg)](https://anaconda.org/conda-forge/azure-mgmt-compute)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-compute/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-mgmt-compute)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-azure--mgmt--compute-green.svg)](https://anaconda.org/conda-forge/azure-mgmt-compute) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/azure-mgmt-compute.svg)](https://anaconda.org/conda-forge/azure-mgmt-compute) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/azure-mgmt-compute.svg)](https://anaconda.org/conda-forge/azure-mgmt-compute) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/azure-mgmt-compute.svg)](https://anaconda.org/conda-forge/azure-mgmt-compute) |
 
 Installing azure-mgmt-compute
 =============================
