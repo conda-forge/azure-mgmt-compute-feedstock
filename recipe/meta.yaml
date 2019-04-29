@@ -1,6 +1,6 @@
 {% set name = "azure-mgmt-compute" %}
-{% set version = "4.6.1" %}
-{% set sha256 = "10f281a530818c4e418f728b44e2705ac0467893f22f8a21ad5e6446fcf4317e" %}
+{% set version = "5.0.0" %}
+{% set sha256 = "bc200f100da77c0c910cc9e4db103d4c3f9e052222aa400630b608e410bbbefd" %}
 
 package:
   name: {{ name|lower }}
