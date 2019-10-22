@@ -1,6 +1,6 @@
 {% set name = "azure-mgmt-compute" %}
-{% set version = "8.0.0" %}
-{% set sha256 = "d19c999b753f7ea6868d969a41e200f808b249fd29dfc377ad177b816372151a" %}
+{% set version = "9.0.0" %}
+{% set sha256 = "06795ccb7377eaa3864819a1c63b9bfe9957a58814c65025aef89e9cd81190fc" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
