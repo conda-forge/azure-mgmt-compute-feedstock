@@ -1,6 +1,6 @@
 {% set name = "azure-mgmt-compute" %}
-{% set version = "9.0.0" %}
-{% set sha256 = "06795ccb7377eaa3864819a1c63b9bfe9957a58814c65025aef89e9cd81190fc" %}
+{% set version = "18.0.0" %}
+{% set sha256 = "34815c91193640ad8ff0c4dad7f2d997548c853d2e8b10250329ed516e55879e" %}
 
 package:
   name: {{ name|lower }}
@@ -17,14 +17,14 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python >=3
     - setuptools
     - pip
   run:
     - python >=3
     - azure-common >=1.1
-    - msrestazure >=0.4.20 
+    - msrestazure >=0.4.20
 
 test:
   imports:
@@ -37,7 +37,7 @@ test:
 about:
   home: https://github.com/Azure/azure-sdk-for-python
   license: Apache-2.0
-  summary: 'Microsoft Azure Client Libraries for Python'
+  summary: Microsoft Azure Client Libraries for Python
 
 extra:
   recipe-maintainers:
