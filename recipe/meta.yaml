@@ -1,5 +1,5 @@
 {% set name = "azure-mgmt-compute" %}
-{% set version = "27.2.0" %}
+{% set version = "29.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/azure-mgmt-compute-{{ version }}.zip
-  sha256: e5c69553166fb7eecbff52c37dc0ff4a2530bc5545d4a5dd4ba983215ad2289d
+  sha256: 2d5a1bae7f5d307ca1e850d7e83fed9c839d4f635b10a4b8d3f8bc6098ac2888
 
 build:
   number: 0
