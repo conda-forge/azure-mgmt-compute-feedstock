@@ -1,11 +1,11 @@
-About azure-mgmt-compute
-========================
+About azure-mgmt-compute-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-mgmt-compute-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Azure/azure-sdk-for-python
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-mgmt-compute-feedstock/blob/main/LICENSE.txt)
 
 Summary: Microsoft Azure Compute Management Client Library for Python
 
