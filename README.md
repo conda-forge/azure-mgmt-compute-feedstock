@@ -1,11 +1,11 @@
-About azure-mgmt-compute
-========================
+About azure-mgmt-compute-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-mgmt-compute-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Azure/azure-sdk-for-python
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-mgmt-compute-feedstock/blob/main/LICENSE.txt)
 
 Summary: Microsoft Azure Compute Management Client Library for Python
 
@@ -21,14 +21,13 @@ To learn how to use this package, see the [quickstart guide](https://aka.ms/azsd
 
 PyPI: [https://pypi.org/project/azure-mgmt-compute/](https://pypi.org/project/azure-mgmt-compute/)
 
-
 Current build status
 ====================
 
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2769&branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
         <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/azure-mgmt-compute-feedstock?branchName=main">
       </a>
     </td>
@@ -108,7 +107,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
